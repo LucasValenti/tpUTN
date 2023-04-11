@@ -1,7 +1,9 @@
 .navbar{
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
     background-color: rgb(243, 252, 242);
-
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 .navbar a{
@@ -55,6 +57,91 @@ i{
     padding-left: 5px;
 }
 
+.a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.conteiner{
+    margin: 15%;
+    border: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color)!important;
+}
+
+.buttons{
+    text-align: center;
+    justify-content: space-around;
+}
+
+.text2{
+    text-align: center;
+    color: blue;
+}
+.text{
+    text-align: center;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.375rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.text-primary {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-primary-rgb),var(--bs-text-opacity))!important;
+}
+.form-label {
+    margin-bottom: 0.5rem;
+}
+label {
+    display: flex;
+}
+
+ input {
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    margin: 0em;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+} 
 
 @media screen and (max-width: 767px) {
     #image-container {
