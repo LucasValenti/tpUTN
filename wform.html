@@ -39,9 +39,37 @@
 
 </head>
 
-<body>
-    <div class="container-fluid  mt-3">
+<body id="body">
+    <header>
+        <!--PRINCIPIO BARRA DE NAVEGACION-->
+        <nav class="navbar navbar-expand-md">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Inicio</a>
+                <div class="collapse navbar-collapse" id="manu">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Categoria</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#cursos">Curso HTML</a></li>
+                                <li><a class="dropdown-item" href="#cursos">Curso CSS</a></li>
+                                <li><a class="dropdown-item" href="#cursos">Curso JavaScript</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search">
+                        <button class="btn btn-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
 
+
+    <div class="container-fluid  mt-3" id="wform">
         <div class="row justify-content-center">
             <div class="col-12 col-md-8">
                 <!-- VISTA DE DATOS PERSONALES -->
@@ -238,23 +266,26 @@
                 <!-- FIN VISTA DE CONFIRMACION DE *TODOS* LOS DATOS -->
             </div>
         </div>
-        <!-- SE PUEDE OBVIAR. ES PARA MOSTRAR EL RESULTADO  
-        <div class="mt-3 d-none d-flex justify-content-center" id="contenedorJson">
-            <div>
-                <h4>Estos datos serían enviados al back-end para guardarse en una BD <span class="fs-5">(por
-                        ejemplo)</span></h4>
-                <span>
-                    <code> var f = new formulario() </code>
-                </span><br>
-                <textarea id="json" rows="13" cols="80">
-
-                </textarea>
-            </div>
-        </div>
-
-    </div>-->
-    <!--CIERRA CONTAINER -->
-
+        <br>         
+        <br>
+        <footer id="pb-footer">
+            <section class="footer-partebaja">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-3 py-5">
+                            <p>Siguenos en nuestras redes sociales</p>
+                        </div>
+                        <div class="col-3 py-5">
+                            <i class="bi bi-facebook"></i><i class="bi bi-instagram"></i><i class="bi bi-linkedin"></i>
+                        </div>
+                        <div class="col-6 py-5 d-flex justify-content-end align-items-center">
+                            <p><i class="bi bi-c-circle"></i>2023 - N-Academy</p>
+                        </div> 
+                    </div>
+                </div>
+            </section>
+        </footer> 
 </body>
+
 
 </html>

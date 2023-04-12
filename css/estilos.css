@@ -55,6 +55,20 @@ i{
     padding-left: 5px;
 }
 
+#body{
+    background-color: rgb(243, 252, 242);
+    
+}
+
+#wform{
+    background-color: whitesmoke;
+}
+
+#pb-footer{
+    border-top: rgb(243, 252, 242) 2px solid;
+    padding-top: 20px;
+}
+
 #primerVista h1{
     border-radius: 10px;
 }
