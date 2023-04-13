@@ -11,7 +11,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap" rel="stylesheet">
-
+    <!--JQUERY-->
+    <script src="jquery-3.6.4.min.js"></script>   
 
      <!-- El script de la librería-->
      <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"
@@ -36,7 +37,7 @@
         <!--NAV-->
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#inicio">Inicio</a>
+              <img src="img/LogoMakr-1l04O8 (1).png" alt="logo" id="logo">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -56,10 +57,16 @@
                     </ul>
                   </li>
                 </ul>
-                <form class="d-flex" role="search">
+                <div id="weather-container">
+                    <P class="pt-3">Buenos Aires</P>
+                    <div id="weather-image"></div>
+                    <div id="weather-temperature"></div>
+
+                  </div>
+               <!-- <form class="d-flex" role="search">
                   <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                   <button class="btn btn-outline-success" type="submit">Buscar</button>
-                </form>
+                </form>-->
               </div>
             </div>
           </nav>

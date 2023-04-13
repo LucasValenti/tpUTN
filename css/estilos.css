@@ -111,6 +111,17 @@ i{
 
 /*FIN FORM WIZZARD*/
 
+#weather-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #logo{
+    width: 90px;
+    height: 50px;
+  }
+
 /*SE ACOMODAN LAS IMAGENES DE LA PAGINA PARA UNA RESOLUCION DE CELULAR*/
 @media screen and (max-width: 767px) {
     #image-container {

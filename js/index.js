@@ -1,3 +1,4 @@
+
 /****************************************************************************************************************************************************
   VALIDACION DE DATOS DE ENTRADA
   En nuestra página web existen 3 Formularios: 1)Datos personales, 2)Datos del negocio y 3)Formulario de Confirmación de envío de datos (ReadOnly).
