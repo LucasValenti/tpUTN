@@ -39,43 +39,15 @@
 
 </head>
 
-<body id="body">
-    <header>
-        <!--PRINCIPIO BARRA DE NAVEGACION-->
-        <nav class="navbar navbar-expand-md">
-            <div class="container">
-                <a class="navbar-brand" href="index.html">Inicio</a>
-                <div class="collapse navbar-collapse" id="manu">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contacto">Contacto</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Categoria</a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#cursos">Curso HTML</a></li>
-                                <li><a class="dropdown-item" href="#cursos">Curso CSS</a></li>
-                                <li><a class="dropdown-item" href="#cursos">Curso JavaScript</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search">
-                        <button class="btn btn-success" type="submit">Buscar</button>
-                    </form>
-                </div>
-            </div>
-        </nav>
-    </header>
+<body>
 
-
-    <div class="container-fluid  mt-3" id="wform">
+    <div class="container-fluid  mt-3">
         <div class="row justify-content-center">
             <div class="col-12 col-md-8">
                 <!-- VISTA DE DATOS PERSONALES -->
-                <form class="needs-validation mx-auto border p-4" id="primerVista" novalidate>
+                <form class="needs-validation border mx-auto p-5" id="primerVista" novalidate>
 
-                    <h1 class="text-center bg-success text-white py-3">Registra los datos de inscripcion</h1>
+                    <h1 class="text-center bg-success text-white py-3">Datos de inscripcion</h1>
 
                     <div class="row my-2">
                         <!--fila de nombre y apellido -->
@@ -132,7 +104,7 @@
                     </div>
                     <div class="text-center my-3">
                         <!-- BOTONES DE AVANCE/RETROCESO -->
-                        <a href="index.html" class="btn btn-light">Volver</a>
+                        <a href="index.html" class="btn btn-light border">Volver</a>
                         <button class="btn btn-success" type="submit">Siguiente</button>
                     </div>
                 </form>
@@ -194,7 +166,7 @@
                     </div>
                     <div class="text-center my-3">
                         <!-- BOTONES DE AVANCE/RETROCESO -->
-                        <div class="btn btn-danger" id="btnSegundaVistaAtras">Volver</div>
+                        <div class="btn btn-light border" id="btnSegundaVistaAtras">Volver</div>
                         <button class="btn btn-success" type="submit">Siguiente</button>
                     </div>
                 </form>
@@ -258,33 +230,32 @@
                     </div>
 
                     <div class="text-center">
-                        <div class="btn btn-outline-danger btn-lg my-4" id="btnVolverConfirma">Volver</div>
-                        <div class="btn btn-outline-success btn-lg my-4" id="btnConfirmarDatos">Registrarme</div>
-                        <div id="btnCrearPdf" class="btn btn-outline-danger btn-lg my-4"><i class="bi bi-filetype-pdf"></i></div>
+                        <div class="btn btn-light border btn-lg my-4" id="btnVolverConfirma">Volver</div>
+                        <div class="btn btn-success btn-lg my-4" id="btnConfirmarDatos">Registrarme</div>
+                        <div id="btnCrearPdf" class="btn btn-danger btn-lg my-4"><i class="bi bi-filetype-pdf"></i></div>
                     </div>
                 </form>
                 <!-- FIN VISTA DE CONFIRMACION DE *TODOS* LOS DATOS -->
             </div>
         </div>
-        <br>         
-        <br>
-        <footer id="pb-footer">
-            <section class="footer-partebaja">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-3 py-5">
-                            <p>Siguenos en nuestras redes sociales</p>
-                        </div>
-                        <div class="col-3 py-5">
-                            <i class="bi bi-facebook"></i><i class="bi bi-instagram"></i><i class="bi bi-linkedin"></i>
-                        </div>
-                        <div class="col-6 py-5 d-flex justify-content-end align-items-center">
-                            <p><i class="bi bi-c-circle"></i>2023 - N-Academy</p>
-                        </div> 
+    </div>
+    <footer>
+        <section class="wform-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6" id="redes">
+                        <i class="bi bi-facebook" style="font-size: 1.5rem; color: cornflowerblue;"></i>
+                        <i class="bi bi-instagram" style="font-size: 1.5rem; color: rgb(173, 44, 166);"></i>
+                        <i class="bi bi-linkedin" style="font-size: 1.5rem; color: rgb(9, 58, 149);"></i>       
+                    </div>
+
+                    <div class="col-6 d-flex justify-content-end">
+                        <p><i class="bi bi-c-circle"></i>2023 - N-Academy</p>
                     </div>
                 </div>
-            </section>
-        </footer> 
+            </div>
+        </section>
+    </footer>
 </body>
 
 

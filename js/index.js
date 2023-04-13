@@ -77,6 +77,9 @@ $(document).ready(function() {
                             //Inicializa la instancia de clase Formulario{} con los valores que ingreso el usuario en ambos Formularios
                             LlenarClaseFormulario();
                             break;
+                            case "formContacto":
+                                //muestro mensaje de Envío de mail 
+                                break;
                     }
 
                 }
@@ -167,3 +170,4 @@ $(document).ready(function() {
 
 
 });
+

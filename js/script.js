@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 html2canvas: {
                     scale: 3, // A mayor escala, mejores gráficos, pero más peso
                     letterRendering: true,
+                    scrollY: 0
                 },
                 jsPDF: {
                     unit: "in",

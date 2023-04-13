@@ -1,3 +1,7 @@
+body {
+    padding-bottom: 10px;
+  }
+
 .navbar{
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
     background-color: rgb(243, 252, 242);
@@ -12,17 +16,16 @@
 /* Cambiar la fuente de texto de los enlaces de la barra de navegación */
 .navbar-nav .nav-link {
     font-family: 'Open Sans-400', sans-serif;
-    color: black;
+    color: rgb(6, 21, 5);
     
 }
 
 .navbar-brand {
-    font-family: 'Open Sans-800', sans-serif; /* Cambiar por la fuente que deseas */
+    font-family: 'Open Sans-400', sans-serif;
+    color: rgb(6, 21, 5);
 }
 
-.card-body {
-    overflow-y: auto;  /*Esto hará que el contenido de las cajas no se desborde y que las cajas tengan todas el mismo tamaño de alto.*/
-  }
+
 
 /*HERO*/
 
@@ -47,30 +50,49 @@
 }
 /*HERO FIN*/
 
-footer{
-    background-color: rgb(243, 252, 242);
-}
-
 i{
     padding-left: 5px;
 }
 
-#body{
+/*FORM CONTACTO INDEX*/
+.footer-partebaja{  
     background-color: rgb(243, 252, 242);
-    
-}
-
-#wform{
-    background-color: whitesmoke;
-}
-
-#pb-footer{
-    border-top: rgb(243, 252, 242) 2px solid;
+    border-top: rgb(198, 242, 198) 1px solid;
     padding-top: 20px;
+
+}
+
+#footer{
+    border-top: rgb(198, 242, 198) 1px solid;
+    background-color: rgb(243, 252, 242);
+}
+/*FIN FORM CONTACTO INDEX*/
+
+/*FORM WIZZARD*/
+
+
+.wform-footer{
+
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  padding-top: 170px;
+  height: 20px;
+
+}
+
+#primerVista{
+    background-color: rgb(243, 252, 242);
+
 }
 
 #primerVista h1{
     border-radius: 10px;
+}
+
+#segundaVista{
+
+    background-color: rgb(243, 252, 242);
 }
 
 #segundaVista h3{
@@ -78,11 +100,16 @@ i{
 
 }
 
+#confirmar{
+    background-color: rgb(243, 252, 242);
+}
+
 #confirmar h1{
     border-radius: 10px;  
 
 }
 
+/*FIN FORM WIZZARD*/
 
 /*SE ACOMODAN LAS IMAGENES DE LA PAGINA PARA UNA RESOLUCION DE CELULAR*/
 @media screen and (max-width: 767px) {
@@ -93,6 +120,10 @@ i{
     
     #text-container {
         order: 2;
+    }
+
+    .wform-footer{
+        padding-top: 25px;
     }
 }
 
